@@ -5,3 +5,5 @@ from django.http import HttpResponse
 
 def index(request):
     return render(request, 'index.html')
+def sendMail(request):
+    return render(request, 'sendMail.html')

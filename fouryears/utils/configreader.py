@@ -14,6 +14,6 @@ class DBConfigReader(IConfigReader):
             print(item)
         print(cfg['DEFAULT']['name'])
 
-if __name__ == '__main__':
-    c = DBConfigReader('../config/db.cfg')
-    c.get_value('1')
+# if __name__ == '__main__':
+#     c = DBConfigReader('../config/db.cfg')
+#     c.get_value('1')

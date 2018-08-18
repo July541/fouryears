@@ -13,7 +13,7 @@ layui.use(['layer','jquery', 'form','laydate'], function(){
   			title:"填写信息",
   			type:2,
   			area: ['500px', '250px'],
-  			content:"./sendMail.html"
+  			content:"/sendMail"
   		});
   	}
   })
